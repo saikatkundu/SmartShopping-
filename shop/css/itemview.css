@@ -1,0 +1,265 @@
+/*page body*/
+.show_items_page{
+	height: 2500px;
+	width: 100%;
+	position: relative;
+	background-color: 	#F8F8F8 ;
+}
+
+/*all catagory in which type is showing now*/
+.showing_catagory_items{
+	position: relative;
+	height: 35px;
+	width: 100%;
+	border-bottom: 1px solid #C0C0C0;
+
+    -webkit-box-shadow: 0 4px 6px -6px black;
+       -moz-box-shadow: 0 4px 6px -6px black;
+            box-shadow: 0 4px 6px -6px black;
+}
+
+/*filter the items in left section*/
+.filter_item_view{
+	position: relative;
+	height: 2400px;
+	width: 19%;
+	top: 10px;
+	border-right: 1px solid #E0E0E0 ;
+	white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    -ms-text-overflow:ellipsis;
+    float: left;
+}
+
+/*showing the items heading*/
+.showing_result{
+	position: relative;
+	width: 97%;
+	height: 250px;
+	margin-top: 10px;
+	margin-left: 3px;
+	border-bottom: 1px solid #E0E0E0;
+}
+
+/*filter by brand,price,availablity*/
+.band_filter,.price_filter,.avalablity_filter{
+	position: relative;
+	height: 230px;
+	width: 97%;
+	margin-left: 3px;
+	margin-top: 5px;
+	border-top: 1px solid #E0E0E0;
+	border-bottom: 1px solid #E0E0E0;
+}
+.band_filter{
+	overflow-y: scroll;
+}
+
+/*heading of filter type*/
+.band_heading{
+	position: relative;
+	height: 25px;
+	margin: 0;
+	padding: 0;
+	color: #123456;
+
+}
+.band_heading h3{
+	float: left;
+	padding-left: 25px;
+	cursor: default;
+}
+.band_heading span{
+	margin-right: 35px;
+	margin-top: 20px;
+	float: right;
+	cursor: pointer;
+	font-size: 16px;
+}
+
+/*filter the items by their price*/
+.price_heading{
+	position: relative;
+	height: 30px;
+	margin-bottom: 20px;
+	padding: 0;
+	/*text-align: center;*/
+	color: #123456;
+
+}
+.price_heading h3{
+	float: left;
+	padding-left: 25px;
+	cursor: default;
+}
+.price_heading span{
+	margin-right: 35px;
+	margin-top: 20px;
+	float: right;
+	cursor: pointer;
+	font-size: 16px;
+}
+
+
+/*filter the items by their availability*/
+.avalablity_heading{
+	position: relative;
+	height:30px;
+	margin-bottom: 15px;
+	padding: 0;
+	/*text-align: center;*/
+	color: #123456;
+
+}
+.avalablity_heading h3{
+	float: left;
+	padding-left: 25px;
+	cursor: default;
+}
+.avalablity_heading span{
+	margin-right: 35px;
+	margin-top: 20px;
+	float: right;
+	cursor: pointer;
+	font-size: 16px;
+}
+
+
+
+
+/*sort the items by a order*/
+.sort_item_byorder{
+	/*position: absolute;*/
+	height: 45px;
+	width: 80.8%;
+	border-bottom: 1px solid #E0E0E0;
+	/*background-color: #120;*/
+	display: block;
+	white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    -ms-text-overflow:ellipsis;
+
+    -webkit-box-shadow: 0 3px 6px -6px black;
+       -moz-box-shadow: 0 3px 6px -6px black;
+            box-shadow: 0 3px 6px -6px black;
+
+}
+.sort_item_byorder ul{
+	/*float: left;*/
+	text-decoration: none;
+	margin-left: 200px;
+}
+.sort_item_byorder ul li{
+	float: left;
+	text-decoration: none;
+	margin-left: 50px;
+	list-style-type: none;
+	color: 	#484848 ;
+
+}
+.sort_item_byorder ul li:hover{
+	border-bottom: 3px solid #3366FF;
+	padding-bottom: 5px;
+	cursor: pointer;
+	color: 	#3333CC;
+}
+
+
+
+/*Row one items*/
+.showitems_row1,.showitems_row2,.showitems_row3,.showitems_row4,.showitems_row5{
+	position: relative;
+	height: 400px;
+	width: 79%;
+	margin-left: 5px;
+	margin-top: 5px;
+	/*border: 1px solid #E0E0E0;*/
+	display: block;
+	white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    -ms-text-overflow:ellipsis;
+    text-align: right;
+    float: left;
+}
+/*colums under row 1*/
+#colum_row1,#colum_row2,#colum_row3,#colum_row4,#colum_row5{
+	position: relative;
+	height: 98%;
+	width: 24.5%;
+	margin-left: 2px;
+	margin-top: 5px;
+	/*border: 1px solid #E8E8E8 ;*/
+	border: 1px solid #606060;
+	display: block;
+	white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    -ms-text-overflow:ellipsis;
+    text-align: right;
+    float: left;
+}
+
+/*image of the items*/
+.item_image{
+	position: relative;
+	height: 60%;
+	width: 99.2%;
+	border: 1px solid #A123A3;
+
+}
+
+/*items name*/
+.item_name{
+	position: relative;
+	height: 23%;
+	width: 99.2%;
+	border: 1px solid #ABCDEF;
+	margin-top: 1px;
+	margin-bottom: 1px;
+}
+/*price of the items*/
+.item_price{
+	position: relative;
+	height: 15%;
+	width: 99.2%;
+	border: 1px solid #AB0DE0;
+}
+
+
+/*back to top when scrolling page*/
+.top{
+	position: fixed;
+	float: right;
+	height: 30px;
+	width: 40px;
+	background-color: #A0A0A0;
+	bottom: 30px;
+	right: 10px;
+	color: #3333FF;
+	text-align: center;
+	padding-top: 10px;
+	border-radius: 20px;
+	cursor: pointer;
+	padding-left: 0;
+	/*display: none;*/
+}
+.top a{
+	position: relative;
+	text-decoration: none;
+	font-size: 16px;
+	height: 30px;
+	width: 40px;
+	margin: 0;
+	padding: 0;
+}
+
+
+
+
+
+
+
+

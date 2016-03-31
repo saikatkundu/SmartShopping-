@@ -1,0 +1,675 @@
+
+
+/*page body*/
+.show_items_page{
+	position: relative;
+	height: 100%;
+	width: 100%;
+	min-height: 2300px;
+	position: relative;
+	background-color: 	#F8F8F8 ;
+	background-size:cover;
+	overflow: hidden;
+}
+
+/*footer*/
+.ftr{
+	position: relative;
+	height: 500px;
+	margin-top: 2px;
+}
+
+/*all catagory in which type is showing now*/
+.showing_catagory_items{
+	position: relative;
+	height: 35px;
+	width: 100%;
+	border-bottom: 1px solid #C0C0C0;
+
+    -webkit-box-shadow: 0 4px 6px -6px black;
+       -moz-box-shadow: 0 4px 6px -6px black;
+            box-shadow: 0 4px 6px -6px black;
+}
+
+/*filter the items in left section*/
+.filter_item_view{
+	position: relative;
+	height: 2060px;
+	width: 19%;
+	top: 10px;
+	border-right: 1px solid #E0E0E0 ;
+	white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    -ms-text-overflow:ellipsis;
+    float: left;
+}
+
+/*showing the items heading*/
+.showing_result{
+	position: relative;
+	width: 97%;
+	height: 250px;
+	margin-top: 10px;
+	margin-left: 3px;
+	border-bottom: 1px solid #E0E0E0;
+}
+
+
+
+/*heading of filter type*/
+.band_heading{
+	position: relative;
+	height: 30px;
+	margin: 0;
+	padding: 0;
+	color: #123456;
+	/*border: 1px	solid #000;*/
+}
+.band_heading h3{
+	position: relative;
+	float: left;
+	padding-left: 25px;
+	cursor: default;
+	margin-top: 5px;
+	
+}
+.band_heading span,.price_heading span{
+	position: relative;
+	margin-right: 35px;
+	margin-top: 5px;
+	float: right;
+	cursor: pointer;
+	font-size: 16px;
+}
+
+.band_filter{
+	position: relative;
+	height: 190px;
+	width: 97%;
+	top: -15px;
+	margin-left: 3px;
+	margin-top: 0px;
+	border-top: 1px solid #E0E0E0;
+	border-bottom: 1px solid #E0E0E0;
+	overflow-y: scroll;
+	text-indent: 20px;
+	float: left;
+
+}
+
+			/*end of brand*/
+
+
+
+.brand-checkbox,.price-checkbox,.available-checkbox,.os-checkbox,.fe4s-checkbox,.int-fe4s-checkbox,.pcam-checkbox,.scam-checkbox{
+	padding-top: 3px;
+	width: 99%;
+}
+
+
+.brand-checkbox:hover,.price-checkbox:hover,.available-checkbox:hover,.os-checkbox:hover,.fe4s-checkbox:hover,.int-fe4s-checkbox:hover,.pcam-checkbox:hover,.scam-checkbox:hover{
+	border: 1px solid #0099cc;
+	margin: 0;
+	padding: 0;
+}
+
+/*filter the items by their price*/
+.price_heading{
+	position: relative;
+	height: 30px;
+	margin-bottom: 0px;
+	padding: 0;
+	margin-top: 195px;
+	color: #123456;
+	/*border: 1px	solid #000;*/
+}
+.price_heading h3{
+	float: left;
+	padding-left: 25px;
+	cursor: default;
+	margin-top: -6px;
+	/*border: 1px solid #000;*/
+}
+.price_heading span{
+	margin-right: 35px;
+	/*margin-top: 20px;*/
+	float: right;
+	cursor: pointer;
+	font-size: 16px;
+	margin-top: -6px;
+}
+
+.price_filter{
+	position: relative;
+	height: 190px;
+	width: 97%;
+	margin-left: 3px;
+	top: -10px;
+	border-top: 1px solid #E0E0E0;
+	border-bottom: 1px solid #E0E0E0;
+	/*border: 1px	solid #000;*/
+	text-indent: 20px;
+	float: left;
+	height: 165px;
+}
+
+		/*end of price*/
+
+
+/*filter the items by their availability*/
+.avalablity_heading{
+	position: relative;
+	height:30px;
+	top: 173px;
+	margin-bottom: 15px;
+	padding: 0;
+	/*text-align: center;*/
+	color: #123456;
+	
+}
+.avalablity_heading h3{
+	position: relative;
+	float: left;
+	padding-left: 25px;
+	cursor: default;
+	margin-top: -14px;
+	top: -162px;
+	
+}
+.avalablity_heading span{
+	position: relative;
+	margin-right: 35px;
+	margin-top: 20px;
+	float: right;
+	cursor: pointer;
+	font-size: 16px;
+	margin-top: -11px;
+	top: -162px;
+}
+
+.avalablity_filter{
+	position: relative;
+	height: 50px;
+	width: 97%;
+	margin-left: 3px;
+	margin-top: 0px;
+	border-top: 1px solid #E0E0E0;
+	border-bottom: 1px solid #E0E0E0;
+	/*border: 1px	solid #000;*/
+	text-indent: 20px;
+	float: left;
+}
+
+			/*end of available*/
+
+
+/*------filter items by there os type*/
+
+.os_heading{
+	position: relative;
+	height:30px;
+	top: 215px;
+	margin-bottom: 15px;
+	padding: 0;
+	color: #123456;
+	
+}
+.os_heading h3{
+	position: relative;
+	float: left;
+	padding-left: 5px;
+	cursor: default;
+	margin-top: -14px;
+	top: -195px;
+	
+}
+.os_heading span{
+	position: relative;
+	margin-right: 10px;
+	margin-top: 20px;
+	float: right;
+	cursor: pointer;
+	font-size: 16px;
+	margin-top: -11px;
+	top: -195px;
+}
+
+.os_filter{
+	position: relative;
+	height: 100px;
+	width: 97%;
+	margin-left: 3px;
+	margin-top: 0px;
+	border-top: 1px solid #E0E0E0;
+	border-bottom: 1px solid #E0E0E0;
+	text-indent: 20px;
+	float: left;
+	top: 10px;
+}
+			/*end of os*/
+
+/*------filter items by there features type*/
+
+.fe4s_heading{
+	position: relative;
+	height:30px;
+	top: 305px;
+	margin-bottom: 15px;
+	padding: 0;
+	color: #123456;
+	/*border: 1px solid #000;*/
+}
+.fe4s_heading h3{
+	position: relative;
+	float: left;
+	padding-left: 25px;
+	cursor: default;
+	margin-top: -5px;
+	top: -283px;
+	/*border: 1px solid #000;*/
+}
+.fe4s_heading span{
+	position: relative;
+	margin-right: 10px;
+	margin-top: 20px;
+	float: right;
+	cursor: pointer;
+	font-size: 16px;
+	margin-top: -3px;
+	top: -283px;
+}
+
+.fe4s_filter{
+	position: relative;
+	height: 165px;
+	width: 97%;
+	margin-left: 3px;
+	margin-top: 0px;
+	border-top: 1px solid #E0E0E0;
+	border-bottom: 1px solid #E0E0E0;
+	text-indent: 20px;
+	float: left;
+	top: 10px;
+	/*border: 1px solid #000;*/
+}
+
+
+		/*end of features*/
+
+
+/*------filter items by there Internet features type*/
+
+.int-fe4s_heading{
+	position: relative;
+	height:30px;
+	top: 461px;
+	margin-bottom: 15px;
+	padding: 0;
+	color: #123456;
+	/*border: 1px solid #000;*/
+}
+.int-fe4s_heading h3{
+	position: relative;
+	float: left;
+	padding-left: 5px;
+	cursor: default;
+	margin-top: -5px;
+	top: -440px;
+	/*border: 1px solid #000;*/
+}
+.int-fe4s_heading span{
+	position: relative;
+	margin-right: 10px;
+	margin-top: 20px;
+	float: right;
+	cursor: pointer;
+	font-size: 16px;
+	margin-top: -3px;
+	top: -440px;
+}
+
+.int-fe4s_filter{
+	position: relative;
+	height: 145px;
+	width: 97%;
+	margin-left: 3px;
+	margin-top: 0px;
+	border-top: 1px solid #E0E0E0;
+	border-bottom: 1px solid #E0E0E0;
+	text-indent: 20px;
+	float: left;
+	top: 10px;
+	/*border: 1px solid #000;*/
+}
+
+
+		/*end of internet features*/
+
+
+/*------filter items by there primary camera type*/
+
+.pcam_heading{
+	position: relative;
+	height:30px;
+	top: 596px;
+	margin-bottom: 15px;
+	padding: 0;
+	color: #123456;
+	/*border: 1px solid #000;*/
+}
+.pcam_heading h3{
+	position: relative;
+	float: left;
+	padding-left: 5px;
+	cursor: default;
+	margin-top: -5px;
+	top: -575px;
+	/*border: 1px solid #000;*/
+}
+.pcam_heading span{
+	position: relative;
+	margin-right: 10px;
+	margin-top: 20px;
+	float: right;
+	cursor: pointer;
+	font-size: 16px;
+	margin-top: -3px;
+
+	top: -575px;
+}
+
+.pcam_filter{
+	position: relative;
+	height: 120px;
+	width: 97%;
+	margin-left: 3px;
+	margin-top: 0px;
+	border-top: 1px solid #E0E0E0;
+	border-bottom: 1px solid #E0E0E0;
+	text-indent: 20px;
+	float: left;
+	top: 10px;
+	/*border: 1px solid #000;*/
+}
+
+
+		/*end of primary camera*/
+
+
+/*------filter items by there secondary camera type*/
+
+.scam_heading{
+	position: relative;
+	height:30px;
+	top: 707px;
+	margin-bottom: 15px;
+	padding: 0;
+	color: #123456;
+	/*border: 1px solid #000;*/
+}
+.scam_heading h3{
+	position: relative;
+	float: left;
+	padding-left: 5px;
+	cursor: default;
+	margin-top: -5px;
+	top: -684px;
+	/*border: 1px solid #000;*/
+}
+.scam_heading span{
+	position: relative;
+	margin-right: 10px;
+	margin-top: 20px;
+	float: right;
+	cursor: pointer;
+	font-size: 16px;
+	margin-top: -3px;
+	top: -684px;
+}
+
+.scam_filter{
+	position: relative;
+	height: 120px;
+	width: 97%;
+	margin-left: 3px;
+	margin-top: 0px;
+	border-top: 1px solid #E0E0E0;
+	border-bottom: 1px solid #E0E0E0;
+	text-indent: 20px;
+	float: left;
+	top: 10px;
+	/*border: 1px solid #000;*/
+}
+
+
+		/*end of secondary camera*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*sort the items by a order*/
+.sort_item_byorder{
+	/*position: absolute;*/
+	height: 45px;
+	width: 80.8%;
+	border-bottom: 1px solid #E0E0E0;
+	/*background-color: #120;*/
+	display: block;
+	white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    -ms-text-overflow:ellipsis;
+
+    -webkit-box-shadow: 0 3px 6px -6px black;
+       -moz-box-shadow: 0 3px 6px -6px black;
+            box-shadow: 0 3px 6px -6px black;
+
+}
+.sort_item_byorder ul{
+	/*float: left;*/
+	text-decoration: none;
+	margin-left: 200px;
+}
+.sort_item_byorder ul li{
+	float: left;
+	text-decoration: none;
+	margin-left: 50px;
+	list-style-type: none;
+	color: 	#484848 ;
+
+}
+.sort_item_byorder ul li:hover{
+	border-bottom: 3px solid #3366FF;
+	padding-bottom: 5px;
+	cursor: pointer;
+	color: 	#3333CC;
+}
+.sort_item_byorder ul li a{
+	text-decoration: none;
+}
+
+/*---------------  View Items  ------------------*/
+
+		/*------- total body ----------*/
+.sh0i4t{
+	position: relative;
+	height: 100%;
+	width: 79%;
+	min-height: 2000px;
+	margin-left: 5px;
+	margin-top: 5px;
+	margin-right: 10px;
+	border: 1px solid #F8F8F8;
+	display: block;
+	white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    -ms-text-overflow:ellipsis;
+    text-align: right;
+    float: right;
+}
+		/*-------- Single Item Body----------*/
+.a13gdf{
+	position: relative;
+	width: 100%;
+	height: 390px;
+	max-width: 195px;
+	/*border: 1px solid #000;*/
+	border: 1px solid #F8F8F8;
+	float: left;
+	margin: .4%;
+	opacity: 1;
+	 text-overflow:ellipsis;
+    -ms-text-overflow:ellipsis;
+    font-family: "Times New Roman", Times, serif;
+}
+
+.a13gdf:hover{
+	opacity: .8;
+	border: 1px solid #0066FF;
+}
+
+
+			/*---------- Image of Item-----------*/
+
+			.it4im{
+				position: relative;
+				width: 90%;
+				height: 215px;
+				/*border-bottom: 1px solid #0066FF;*/
+				background-size: cover;
+				text-align: center;
+    			display: block;
+    			vertical-align: middle;
+    			padding: 0;
+    			/*border: 1px solid #957412;*/
+    			margin: auto;
+			}
+			.it4im img{
+				/*padding: 10px;*/
+				background-repeat: no-repeat center center;
+				/*background-size: 95% 95%;*/
+				height: auto;
+				width: auto;
+				max-height: 100%;
+				min-height: 90%;
+				max-width: 100%;
+				background-position: center;
+			}
+
+			/*---------- Title of item ----------*/
+			.it4tl{
+				position: relative;
+				height: 40px;
+				width: 98%;
+				left: 1%;
+				max-width: 195px;
+				text-align: center;
+				border-bottom: 1px solid #0066FF;
+				white-space:nowrap;
+				padding-top: 5px;
+    			overflow:hidden;
+    			/*border: 1px solid #957412;*/
+    			background-size: cover;
+    			text-overflow:ellipsis;
+    			 -ms-text-overflow:ellipsis;
+    			font-size: 16px;
+			}
+			.it4tl a{
+				text-decoration: none;
+				white-space: nowrap;
+			}
+			.it4tl a:hover{
+				border-bottom: 1px solid #003399;
+			}
+
+			/*--------- Price of item ----------*/
+			.it4ps{
+				position: relative;
+				height: 30px;
+				width: 100%;
+				max-width: 195px;
+				padding-top: 5px;
+				margin: 0;
+				text-align: center;
+				border-bottom: 1px solid #0066FF;
+				/*border: 1px solid #957412;*/
+				white-space:nowrap;
+    			overflow:hidden;
+    			text-overflow:ellipsis;
+    			 -ms-text-overflow:ellipsis;
+			}
+
+
+			.spnp{
+				/*------- SPAN ---------*/
+				color: #000;
+				margin-top: 10px;
+				position: absolute; top: 0px;
+				left: 20px;
+				text-align: center;
+				display: block;
+				background: #123; 
+				width: 150px; 
+				height: 25px;
+				font-size: 16px;
+				font-weight: bold;
+			}
+
+			/*-----------Description of item ------*/
+			.it4dsc{
+				position: relative;
+				height: 90px;
+				width: 100%;
+				text-align: left;
+				text-indent: 15px;
+				top: 5px;
+				/*left: 20px;*/
+				/*border: 1px solid #957412;*/
+				white-space:nowrap;
+				font-family: "Times New Roman", Times, serif;
+    			overflow:hidden;
+    			text-overflow:ellipsis;
+    			 -ms-text-overflow:ellipsis;
+			}
+			.it4dsc li{
+				white-space:nowrap;
+				font-family: "Times New Roman", Times, serif;
+    			overflow:hidden;
+    			text-overflow:ellipsis;
+    			 -ms-text-overflow:ellipsis;
+			}
+
+
+
+
+/*----------------- Page Number -------------------*/
+
+.pgn0{
+	position: relative;
+	height: 30px;
+	width: 100%;
+	/*border: 1px solid #111;*/
+	margin-bottom: 1px;
+	left: 0;
+	display: block;
+	background-color: #A0A0A0;
+}
+
+
+
+
+
+
+
